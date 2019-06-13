@@ -230,17 +230,6 @@
     "denominator": 100000000,
     "network_overrides": {"prefix_address_p2sh": "32"}
   },
-  "cryptoid.dash": {
-    "provider": "cryptoid",
-    "network": "dash",
-    "client_class": "CryptoID",
-    "provider_coin_id": "dash",
-    "url": "https://chainz.cryptoid.info/",
-    "api_key": "6b67c7d68966",
-    "priority": 10,
-    "denominator": 100000000,
-    "network_overrides": null
-  },
   "litecoreio.litecoin": {
     "provider": "litecoreio",
     "network": "litecoin",
