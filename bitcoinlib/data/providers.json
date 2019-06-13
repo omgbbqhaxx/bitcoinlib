@@ -153,6 +153,17 @@
     "denominator": 1,
     "network_overrides": {"prefix_address_p2sh": "05"}
   },
+  "blockcypher.dash": {
+    "provider": "blockcypher",
+    "network": "dash",
+    "client_class": "BlockCypher",
+    "provider_coin_id": "",
+    "url": "https://api.blockcypher.com/v1/dash/main/",
+    "api_key": "3b04d5f707304534a6fce87f35f4b30e",
+    "priority": 10,
+    "denominator": 1,
+    "network_overrides": null
+  },
   "blockcypher.litecoin.legacy": {
     "provider": "blockcypher",
     "network": "litecoin_legacy",
