@@ -247,10 +247,10 @@ Installing and updating
 Install with pip
 
 ```shell
->>> sudo apt install libssl-dev
->>> sudo apt install python-dev python3-dev
->>> apt-get install libgmp-dev
->>> pip install bitcoinlib
+sudo apt install libssl-dev
+sudo apt install python-dev python3-dev
+apt-get install libgmp-dev
+pip install bitcoinlib
 ```
 
 
