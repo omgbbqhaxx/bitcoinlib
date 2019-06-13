@@ -47,7 +47,7 @@ class CryptoID(BaseClient):
             url_path = 'explorer/tx.raw.dws'
             variables.update({'coin': self.provider_coin_id})
         if not self.api_key:
-            raise ClientError("Request a CryptoID API key before using this provider")
+            self.api_key = '6b67c7d68966'
         variables.update({'key': self.api_key})
         return self.request(url_path, variables, method)
 
